@@ -3,6 +3,8 @@ package ArrayBlockingQueue;
 import java.util.concurrent.ArrayBlockingQueue;
 
 /**
+ * 阻塞队列
+ *
  * Created by yan on 2015/8/23.
  */
 
@@ -28,6 +30,7 @@ public class Test {
         private void consume() {
             while (true) {
                 try {
+                    queue.take();
                     queue.take();
                     System.out.println("从队列取走一个元素，队列剩余" + queue.size() + "个元素");
                 } catch (InterruptedException e) {
