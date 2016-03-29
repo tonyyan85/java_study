@@ -2,6 +2,7 @@ package string;
 
 /**
  * Created by yan on 2016/1/30.
+ * 字符串中有多少个相同字符
  */
 public class RepeatStrings {
     public static int countStr(String str1, String str2) {
