@@ -53,10 +53,10 @@ public class Permutation {
     }
 
     public static void main(String args[]){
-        char []ss={'a','b','c'};
+        char []ss={'a','b','c','d'};
 //        permutation(ss,0);
         // or
-        permutation(ss,0,3);
+        permutation(ss,0,ss.length);
 
     }
 }
