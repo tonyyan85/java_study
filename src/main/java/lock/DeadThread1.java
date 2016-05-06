@@ -20,7 +20,8 @@ public class DeadThread1 implements Runnable {
     public void fun() {
         synchronized (Resource.o1) {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(100);
+                System.out.println("-----DeadThread1.fun-----");
             } catch (InterruptedException e) {
             }
             synchronized (Resource.o2) {
