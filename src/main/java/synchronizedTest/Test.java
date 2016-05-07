@@ -23,7 +23,7 @@ public class Test {
 }
 
 class InsertData {
-    public synchronized void insert(){
+    public synchronized static void insert(){
         System.out.println("执行insert");
         try {
             Thread.sleep(5000);
