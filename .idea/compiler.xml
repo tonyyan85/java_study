@@ -25,6 +25,8 @@
         <module name="java_study" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java_study" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
