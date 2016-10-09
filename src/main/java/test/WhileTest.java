@@ -7,7 +7,7 @@ public class WhileTest {
     public static void main(String args[]) throws InterruptedException {
         while (true)
         {
-            if(true)
+            if(false)
             {
                 Thread.sleep(5);
                 continue;
