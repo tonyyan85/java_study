@@ -1,4 +1,4 @@
-package lock;
+package deadlock;
 
 /**
  * Created by yan on 2016/1/30.
