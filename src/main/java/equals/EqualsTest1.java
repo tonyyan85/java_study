@@ -1,6 +1,7 @@
 package equals;
 
 /**
+ * 如果不重写equals，是比较p1和p2是否是同一个对象
  * Created by yan on 2016/3/13.
  */
 

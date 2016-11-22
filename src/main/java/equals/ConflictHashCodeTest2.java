@@ -1,18 +1,33 @@
 package equals;
 
-/**
- *
- * Created by yan on 2016/3/13.
- */
+import java.util.*;
 
-public class EqualsTest2{
+/**
+ * @desc 比较equals() 返回true 以及 返回false时， hashCode()的值。
+ *
+ * @author yandi
+ */
+public class ConflictHashCodeTest2{
 
     public static void main(String[] args) {
-        // 新建2个相同内容的Person对象，
-        // 再用equals比较它们是否相等
+        // 新建Person对象，
         Person p1 = new Person("eee", 100);
         Person p2 = new Person("eee", 100);
-        System.out.printf("%s\n", p1.equals(p2));
+        Person p3 = new Person("aaa", 200);
+        Person p4 = new Person("EEE", 100);
+
+        // 新建HashSet对象
+        HashSet set = new HashSet();
+        set.add(p1);
+        set.add(p2);
+        set.add(p3);
+
+        // 比较p1 和 p2， 并打印它们的hashCode()
+        System.out.printf("p1.equals(p2) : %s; p1(%d) p2(%d)\n", p1.equals(p2), p1.hashCode(), p2.hashCode());
+        // 比较p1 和 p4， 并打印它们的hashCode()
+        System.out.printf("p1.equals(p4) : %s; p1(%d) p4(%d)\n", p1.equals(p4), p1.hashCode(), p4.hashCode());
+        // 打印set
+        System.out.printf("set:%s\n", set);
     }
 
     /**
@@ -29,6 +44,15 @@ public class EqualsTest2{
 
         public String toString() {
             return name + " - " +age;
+        }
+
+        /**
+         * @desc重写hashCode
+         */
+        @Override
+        public int hashCode(){
+            int nameHash =  name.toUpperCase().hashCode();
+            return nameHash ^ age;
         }
 
         /**

@@ -10,7 +10,6 @@ package lock;
  */
 public class DeadThread2 implements Runnable {
 
-    @Override
     public void run() {
         fun();
     }
