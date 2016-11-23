@@ -1,4 +1,4 @@
-package reflect.cglib;
+package proxy.cglib;
 
 /**
  * Created by czadmin on 2016/11/23.

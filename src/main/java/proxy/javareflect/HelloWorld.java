@@ -1,4 +1,4 @@
-package proxy;
+package proxy.javareflect;
 
 /**
  * Created by yan on 2016/3/27.
