@@ -1,4 +1,4 @@
-package DesignPattern.Decorator;
+package DesignPattern.decorator;
 
 /**
  * 下面通过一个软件项目例子来说明装饰模式的使用

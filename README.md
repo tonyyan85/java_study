@@ -10,10 +10,12 @@
     - 见proxy.cglib包 cglib的动态代理
     - 见proxy.javareflect包 java实现动态代理
 - **KMP算法** 字符串KMP算法 见string.KMPAlgorithm
+- **阻塞实现** produceandconsume包
 
 ##设计模式
 DesignPattern包下
-- **修饰模式** Decorator
+- **修饰模式** decorator
+- **单例模式** singleton
 
 
 
