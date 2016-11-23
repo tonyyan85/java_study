@@ -4,6 +4,7 @@
     - 使用原始aop进行拦截
 
 **使用MethodInterceptor**
+http://www.tuicool.com/articles/Jj63uav
 http://blog.csdn.net/indieinside/article/details/39370493
 http://blog.csdn.net/gameover8080/article/details/7714343
 ```
