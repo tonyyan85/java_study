@@ -4,6 +4,7 @@ package string;
  * KMP算法的实现
  * http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html
  * http://blog.csdn.net/radic_feng/article/details/6860905
+ * 移动位数 = 已匹配的字符数 - 对应的部分匹配值
  * @author dfeng
  *
  */
