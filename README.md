@@ -19,13 +19,13 @@
 - 基础
 - JUC锁 lock包
 
+##spring
+- **AOP** spring.aop包 通过cglib、java动态代理和javassist实现
 
 ##设计模式
 DesignPattern包下
 - **修饰模式** decorator
 - **单例模式** singleton
-
-
 
 ##应用
 - 通过反射计算方法所用时间 见reflect/time包
@@ -35,3 +35,6 @@ DesignPattern包下
 
 ##RPC
 motan
+
+##java安全框架
+shiro oauth说明
