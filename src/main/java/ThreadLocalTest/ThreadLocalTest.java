@@ -16,7 +16,6 @@ public class ThreadLocalTest {
         Thread[] threads = new Thread[5];
         for (int j = 0; j < 5; j++) {
             threads[j] = new Thread(new Runnable() {
-                @Override
                 public void run() {
                     //获取当前线程的本地变量，然后累加5次
                     int num = local.get();

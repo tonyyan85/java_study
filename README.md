@@ -12,6 +12,9 @@
 - **KMP算法** 字符串KMP算法 见string.KMPAlgorithm
 - **阻塞实现** produceandconsume包
 
+##分布式事务
+- 见transfer包
+
 ##多线程
 - 基础
 - JUC锁 lock包
