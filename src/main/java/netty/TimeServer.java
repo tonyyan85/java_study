@@ -17,6 +17,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 public class TimeServer {
 
     public void bind(int port) throws Exception {
+        // bossGroup是用来处理TCP连接请求的，workGroup是来处理IO事件的
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {

@@ -1,5 +1,7 @@
 
-http://www.cnblogs.com/skywang12345/p/java_threads_category.html
+参考链接
+- http://www.cnblogs.com/skywang12345/p/java_threads_category.html
+- http://www.cnblogs.com/200911/category/901837.html
 
 **(一) 基础篇**
 
@@ -40,6 +42,8 @@ http://www.cnblogs.com/skywang12345/p/java_threads_category.html
  **(三) JUC锁**
 
 17. Java多线程系列--“JUC锁”01之 框架
+
+17-1. [JUC回顾之-AQS同步器的实现原理](http://www.cnblogs.com/200911/p/6031350.html)
 
 18. Java多线程系列--“JUC锁”02之 互斥锁ReentrantLock
 

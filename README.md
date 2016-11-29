@@ -13,6 +13,13 @@
 - **阻塞实现** produceandconsume包 或 thread.lock包下的condition
 - Iterator的fail-fast机制
 
+## JVM
+http://www.cnblogs.com/200911/category/729164.html
+
+## NIO
+- 对多路复用、epoll的介绍 见io.epoll
+- netty 见netty
+
 ##分布式事务
 - 见transfer包
 
