@@ -1,4 +1,4 @@
-package lock.condition;
+package thread.lock.condition;
 
 /**
  * Created by czadmin on 2016/11/24.
