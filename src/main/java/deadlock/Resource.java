@@ -14,8 +14,6 @@ public class Resource {
     public static Object o1 = new Object();
     public static Object o2 = new Object();
 
-
-
     public static void main(String[] args) {
         DeadThread1 dt1 = new DeadThread1();
         DeadThread2 dt2 = new DeadThread2();

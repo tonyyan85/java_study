@@ -36,6 +36,7 @@ http://www.cnblogs.com/200911/category/729164.html
 DesignPattern包下
 - **修饰模式** decorator
 - **单例模式** singleton
+- **责任链模式** chainofresponsibility
 
 ##应用
 - 通过反射计算方法所用时间 见reflect/time包
