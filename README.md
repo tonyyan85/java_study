@@ -11,7 +11,7 @@
     - 见proxy.javareflect包 java实现动态代理
 - **KMP算法** 字符串KMP算法 见string.KMPAlgorithm
 - **阻塞实现** produceandconsume包 或 thread.lock包下的condition
-- Iterator的fail-fast机制
+- **Iterator的fail-fast机制** 见thread.forkfast
 
 ## JVM
 http://www.cnblogs.com/200911/category/729164.html
