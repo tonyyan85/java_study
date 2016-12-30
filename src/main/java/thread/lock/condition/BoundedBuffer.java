@@ -5,6 +5,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 阻塞数组
  * Created by czadmin on 2016/11/24.
  */
 public class BoundedBuffer {
