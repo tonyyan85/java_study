@@ -17,7 +17,6 @@ public class ThreadLocalTest1 {
         Thread[] threads = new Thread[5];
         for (int j = 0; j < 5; j++) {
             threads[j] = new Thread(new Runnable() {
-                @Override
                 public void run() {
                     //取出当前线程的本地变量，并累加1000次
                     Index index = local.get();

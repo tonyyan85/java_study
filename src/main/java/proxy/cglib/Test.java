@@ -19,6 +19,6 @@ public class Test {
         enhancer.setCallback(hacker);
         Programmer proxy =(Programmer)enhancer.create();
         proxy.code();
-
+        proxy.test("ffff");
     }
 }

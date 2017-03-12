@@ -8,4 +8,8 @@ public class Programmer {
     {
         System.out.println("I'm a Programmer,Just Coding.....");
     }
+
+    public void test(String str){
+        System.out.println(str);
+    }
 }
