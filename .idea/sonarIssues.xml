@@ -3,7 +3,47 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ThreadLocalTest/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ThreadLocalTest/ThreadLocalTest1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/genericparadigm/GenericContainer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/geohash/CalculateGeohash.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/guava/object/GuavaObjectsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/guava/optional/readme.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/guava/preconditions/PreconditionsTest.java">
           <value>
             <set />
           </value>
@@ -13,12 +53,77 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/list/TestArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/sql/GetConnection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/sql/HibernateUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/test/LongTest.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_lbs_client/src/main/java/com/sankuai/meituan/banma/thrift/lbs/client/AbstractDistanceCacheClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/workspace/banma_service_lbs_client/src/main/java/com/sankuai/meituan/banma/thrift/lbs/client/DistanceCacheClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_nearby_server/src/main/java/com/sankuai/meituan/banma/thrift/business/nearby/cache/INbCacheClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_nearby_server/src/main/java/com/sankuai/meituan/banma/thrift/business/nearby/cache/NbSortedSetCacheClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_nearby_server/src/main/java/com/sankuai/meituan/banma/thrift/business/nearby/entity/HotGeohashCacheEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_nearby_server/src/main/java/com/sankuai/meituan/banma/thrift/business/nearby/iface/impl/BmNbsThriftIfaceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_nearby_server/src/main/java/com/sankuai/meituan/banma/thrift/business/nearby/service/NbSearchService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_nearby_server/src/main/resources/service-config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/banma_service_nearby_server/src/main/resources/squirrel-config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
           <value>
             <set />
           </value>
